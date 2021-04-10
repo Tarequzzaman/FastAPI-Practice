@@ -12,11 +12,14 @@ print(MYSQL_CONFIG)
 
 
 async def connect_to_db(app: FastAPI) -> None:
-    app.state.pool = await aiomysql.create_pool(**MYSQL_CONFIG)
+    
+    app.state.db = await aiomysql.create_pool(**MYSQL_CONFIG)
+    print(app.state.db)
     print("connection complete")
 
 
 async def close_db_connection(app: FastAPI) -> None:
-    await app.state.pool.close()
+    print(app.state.db)
+    app.state.db.close()
     print("connection closed")
 

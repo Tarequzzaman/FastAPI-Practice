@@ -1,6 +1,9 @@
 from typing import Optional
 
-from fastapi import APIRouter
+from fastapi import APIRouter, Request
+from app.db.fetch_data import fetch
+from app.db.sql.questions import questoions
+
 
 router = APIRouter()
 
@@ -10,6 +13,7 @@ async def hello_world():
     return {"status": "success"}
 
 
-@router.get("/users/")
-async def read_users():
-    return [{"username": "Rick"}, {"username": "Morty"}]
+@router.get("/questions/")
+async def read_users(request : Request):
+    data = await fetch(request.app.state.db, questoions)
+    return data
