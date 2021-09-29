@@ -1,1 +1,2 @@
-questoions = "select id, body from questions order by id desc limit 100 "
+
+QUESTIONS = "select id, body from questions order by id desc limit 100"
