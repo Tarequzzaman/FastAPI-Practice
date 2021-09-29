@@ -1,7 +1,7 @@
 # Example-fastapi
 
-[![Code Quality]](https://www.code-inspector.com/project/29235/score/svg)
-[![Code Grade]](https://www.code-inspector.com/project/29235/status/svg)
+![Code Quality](https://www.code-inspector.com/project/29235/score/svg)
+![Code Grade](https://www.code-inspector.com/project/29235/status/svg)
 
 Uses python 3.7.10 
 
