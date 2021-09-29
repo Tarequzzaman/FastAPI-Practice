@@ -1,4 +1,4 @@
-import os 
+import os
 import aiomysql
 from fastapi import FastAPI
 from dotenv import load_dotenv
