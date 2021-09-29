@@ -14,7 +14,6 @@ def get_application() -> FastAPI:
         FastAPI: the function loads all the necessery items and returns The app
     """
     application = FastAPI(debug=True)
-
     application.add_middleware(
         CORSMiddleware,
         allow_origins=ALLOWED_HOSTS or ["*"],
@@ -22,8 +21,6 @@ def get_application() -> FastAPI:
         allow_methods=["*"],
         allow_headers=["*"],
     )
-
-    # application.add_pagination()
     application.add_event_handler("startup", create_start_app_handler(application))
     application.add_event_handler("shutdown", create_stop_app_handler(application))
     application.include_router(api_router)

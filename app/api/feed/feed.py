@@ -13,7 +13,6 @@ router = APIRouter()
 async def hello_world():
     return {"status": "success"}
 
-
 @router.get("/questions/")
 async def read_users(request : Request):
     data = await fetch(request.app.state.db, QUESTIONS)
