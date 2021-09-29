@@ -1,6 +1,7 @@
 # Example-fastapi
 
-
+[![Code Quality](https://www.code-inspector.com/project/29235/score/svg)
+[![Code Grade](https://www.code-inspector.com/project/29235/status/svg)
 
 Uses python 3.7.10 
 
@@ -24,5 +25,3 @@ step 4:
 uvicorn app.main:app --reload
 
 ```
-
-
