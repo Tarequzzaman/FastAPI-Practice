@@ -17,3 +17,4 @@ async def connect_to_db(app: FastAPI) -> None:
 async def close_db_connection(app: FastAPI) -> None:
     app.state.db.close()
     print("connection closed")
+    

@@ -17,3 +17,4 @@ async def fetch(pool, query):
             await cur.execute(query)
             result = await cur.fetchall()
             return result
+            
