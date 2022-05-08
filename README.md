@@ -1,5 +1,7 @@
 # Example-fastapi
 
+The project that I have used for a template for FastAPI development
+
 ![Code Quality](https://www.code-inspector.com/project/29235/score/svg)
 ![Code Grade](https://www.code-inspector.com/project/29235/status/svg)
 
