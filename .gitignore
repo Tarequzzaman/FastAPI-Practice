@@ -41,20 +41,14 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
-<<<<<<< HEAD
 .nox/
-=======
->>>>>>> 9813d3bb57ef9f291520369e6ca7411a61350c5f
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
 *.cover
-<<<<<<< HEAD
 *.py,cover
-=======
->>>>>>> 9813d3bb57ef9f291520369e6ca7411a61350c5f
 .hypothesis/
 .pytest_cache/
 
@@ -66,10 +60,7 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
-<<<<<<< HEAD
 db.sqlite3-journal
-=======
->>>>>>> 9813d3bb57ef9f291520369e6ca7411a61350c5f
 
 # Flask stuff:
 instance/
@@ -87,7 +78,6 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-<<<<<<< HEAD
 # IPython
 profile_default/
 ipython_config.py
@@ -108,13 +98,6 @@ __pypackages__/
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
-=======
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
->>>>>>> 9813d3bb57ef9f291520369e6ca7411a61350c5f
 
 # SageMath parsed files
 *.sage.py
@@ -140,17 +123,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-<<<<<<< HEAD
 .dmypy.json
 dmypy.json
 
 # Pyre type checker
 .pyre/
-=======
-
-.idea/
-.vscode/
-
-# Project
-postgres-data
->>>>>>> 9813d3bb57ef9f291520369e6ca7411a61350c5f

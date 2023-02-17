@@ -1,29 +1,30 @@
-# Example-fastapi
 
-The project that I have used for a template for FastAPI development
+### Project Description:
+-----
+Fast API Project for CRUD Operation & API serving using sqlalchemy. <br>
+DB: PostgreSQL- 15.2
 
-![Code Quality](https://www.code-inspector.com/project/29235/score/svg)
-![Code Grade](https://www.code-inspector.com/project/29235/status/svg)
 
-Uses python 3.7.10 
-
-To run this project: 
-
-step1: create a virtual env using python 3.7
-
-step 2: 
-
+### Installation & Run: 
+-----
+Rename .env.example to .env
 
 ```
-     pip install -r requirements.txt
+docker-compose build 
+```
+
+Then 
+
+```
+docker-compose up   
+```
+or to run demon mode
+
+```
+docker-compose up   -d
 ```
 
 
-step 3: enable .env file by removing .example
 
-step 4: 
-
-```
-uvicorn app.main:app --reload
-
-```
+Visit: 
+http://127.0.0.1:8004/docs
